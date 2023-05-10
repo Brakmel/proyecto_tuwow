@@ -1,0 +1,169 @@
+body{
+    margin: 0%;
+    background-image: url(https://tuwow.net/application/themes/default/assets/images/graphics/background.jpg);
+    background-color: black;
+}
+::placeholder { color: black; }
+::-webkit-scrollbar {display: none;}
+header{
+    background-image: url(https://tuwow.net/application/themes/default/assets/images/graphics/header.png);
+    width: 100%;
+    height: 10EX;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+img{
+    width:30ex;
+}
+.a_regresar_css{
+    font-size: 3ex;
+    background: -webkit-linear-gradient(270deg,#f1c22d 0,#ff7757 100%);
+    background-clip: border-box;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin: 2ex;
+}
+main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+h1{
+    width: 85%;
+    font-size: 5ex;
+    background: -webkit-linear-gradient(270deg,#f1c22d 0,#ff7757 100%);
+    background-clip: border-box;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: start;
+}
+h2{
+    width: 85%;
+    font-size: 4ex;
+    background: -webkit-linear-gradient(270deg,#f1c22d 0,#ff7757 100%);
+    background-clip: border-box;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: start;
+}
+p{
+    width: 85%;
+    font-size: 2.5ex;
+    background-color: azure;
+    background-clip: border-box;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: justify;
+}
+#menu_inferior{
+    background-image: url(https://tuwow.net/application/themes/default/assets/images/graphics/header.png);
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.seccion_main{
+    border-radius: 1.5ex;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-image: url(https://img.freepik.com/fotos-premium/papel-vintage-marron_506584-218.jpg);
+    background-size: 100%;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(12, 12, 12);
+    margin: 4ex;
+}
+.h2_seccion_main{
+    width: 85%;
+    font-size: 2.5ex;
+    background: -webkit-linear-gradient(270deg,#f1c22d 0,#ff7757 100%);
+    background-clip: border-box;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+.p_seccion_main{
+    width: 85%;
+    font-size: 2.5ex;
+    background-color: azure;
+    background-clip: border-box;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin: 3ex;
+}
+button{
+    width: 50%;
+    border: none;
+    color: white;
+    height: 4ex;
+    background: -webkit-linear-gradient(270deg,#f1c22d 0,#ff7757 100%);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    font-size:2ex;
+    margin: 2ex;
+}
+.a_button_ET{
+    width: 100%;
+    height: auto;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.seccion_tienda{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.recuadro_wow{
+    background: -webkit-linear-gradient(270deg,#64513c 0,#1c1b1a 100%);
+    width: 65ex;
+    height: 65ex;
+    margin: 1ex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+h3{
+    width: 85%;
+    font-size: 3.5ex;
+    background: -webkit-linear-gradient(270deg,#f1c22d 0,#ff7757 100%);
+    background-clip: border-box;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;  
+}

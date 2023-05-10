@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TuWoW</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="img/TuWoW-icon-png-4.ico">
+</head>
+<body>
+    <!-- "«En realidad no me preocupa que quieran robar mis ideas, me preocupa que ellos no las tengan»" Nikola Tesla.
+    Artista del perrito  https://media.giphy.com/media/YiAidxqO7OPKlJ6m8k/giphy.gif ,
+    Aguante Formsubmit =D,
+    Un fuerte abrazo a todos los que se van, se quedaron y vendran.
+    Att: Brakmel (Pantheon) 23-04-2023. 
+    -->
+    <header>
+        <a href="https://tuwow.net/"><img src="img/TuWoW-Fente.png"></a>
+        <a href="http://tuwow.net/">Inicio</a>
+    </header>
+    <main>
+        <div class="titulo_form">
+            <h1>Bienvenido al Sistema de Tickets</h1>
+            <img src="img/TuWoW-icon-png-4.png">
+        </div>
+        <form action="https://formsubmit.co/staftuwow@outlook.com" enctype="multipart/form-data" method="POST">
+            <h2>Completa el formulario</h2>
+            <input type="email" name="Correo" placeholder="  Ingrese su Correo" class="correo_css" required>
+            <input type="name" name="NickName" placeholder="  Ingrese su NickName" class="Asunto_css" required>
+            <input type="text" name="Asunto" placeholder="  Asunto" class="Asunto_css" required>
+            <input type="file" accept="image/png, image/jpeg" name="Nombre del archivo" class="file_css"  required>
+            <p class="toca_css_p">Maximo 300 caracteres.</p>
+            <textarea name="Contexto" placeholder="Escribe el contexto..." required maxlength="300"></textarea>
+            <p class="toca_css_p">Toca el calendario o si estas en celular el boton naranja para adjuntar la fecha del suceso, verifica como escribiste el correo antes de enviar.</p>
+            <input class="tiempo_css" type="date" name="Fecha del suceso" required>
+            <input class="enviar_css" type="submit" value="Enviar">
+            <input type="hidden" name="_next" value="https://tuwow.herokuapp.com/FORM/correcto.html">
+        </form>
+    </main>
+</body>
+</html>

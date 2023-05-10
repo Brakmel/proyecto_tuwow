@@ -1,0 +1,219 @@
+body{
+    margin: 0%;
+    background-image: url(https://tuwow.net/application/themes/default/assets/images/graphics/background.jpg);
+        background-color: black;
+}
+::placeholder { color: rgb(126, 121, 121); }
+::-webkit-scrollbar {display: none;}
+header{
+    background-image: url(https://tuwow.net/application/themes/default/assets/images/graphics/header.png);
+    width: 100%;
+    height: 10EX;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.LOGO_TUWOW{
+    width:50%;
+    height: 18ex;
+    margin: 1ex;
+    border-radius: 100%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+img{
+    width:14ex;
+}
+.a_regresar_css{
+    font-size: 2ex;
+    background: -webkit-linear-gradient(270deg,#f1c22d 0,#ff7757 100%);
+    background-clip: border-box;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+a{
+    font-size: 3ex;
+    background: -webkit-linear-gradient(270deg,#f1c22d 0,#ff7757 100%);
+    background-clip: border-box;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin: 1ex;
+}
+main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+form{
+    background: -webkit-linear-gradient(270deg,#a06d3775 0,#46221a 100%);
+    border-radius: 1ex;
+    width: 120ex;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 4ex;
+}
+.titulo_form{
+    width: 100ex;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 2ex;
+}
+h1{
+    width: 100%;
+    font-size: 5ex;
+    background: -webkit-linear-gradient(270deg,#f1c22d 0,#ff7757 100%);
+    background-clip: border-box;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin: 2ex;
+}
+.correcto_h1_css{
+    width: 100%;
+    font-size: 5ex;
+    background: -webkit-linear-gradient(270deg,#f1c22d 0,#ff7757 100%);
+    background-clip: border-box;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin: 2ex;
+}
+h2{
+    width: 84%;
+    font-size: 4ex;
+    background: -webkit-linear-gradient(270deg,#f1c22d 0,#ff7757 100%);
+    background-clip: border-box;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin: 1ex;
+}
+.correcto_h2_css{
+    width: 100%;
+    font-size: 3ex;
+    background: -webkit-linear-gradient(270deg,#f1c22d 0,#ff7757 100%);
+    background-clip: border-box;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: justify;
+    margin: 2ex;
+}
+p{
+    width: 84%;
+    font-size: 3ex;
+    background: -webkit-linear-gradient(270deg,#f1c22d 0,#ff7757 100%);
+    background-clip: border-box;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: justify;
+}
+.toca_css_p{
+    width: 84%;
+    font-size: 2ex;
+    background: -webkit-linear-gradient(270deg,#f1c22d 0,#ff7757 100%);
+    background-clip: border-box;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: justify;
+}
+input{
+    font-size: 3ex;
+    margin: 1ex;
+    border: none;
+    text-align: center;
+    color: black;
+    height: 4.5ex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.enviar_css{
+    width: 35%;
+    border: none;
+    color: white;
+    height: 4ex;
+    background: -webkit-linear-gradient(270deg,#f1c22d 0,#ff7757 100%);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 3ex;
+}
+.enviar_css:hover{
+    cursor: pointer;
+    transition: 1s;
+    background: -webkit-linear-gradient(270deg,#f1c32d9c 0,#ff7757 100%);
+}
+.correo_css{
+    font-size: 3EX;
+    margin: 2ex;
+    border: none;
+    text-align: start;
+    color: black;
+    width: 84%;
+}
+.Asunto_css{
+    font-size: 3ex;
+    margin: 2ex;
+    border: none;
+    text-align: start;
+    color: black;
+    width: 84%;
+}
+.file_css{
+    font-size: 3ex;
+    margin: 2ex;
+    border: none;
+    text-align: start;
+    color: black;
+    width: 84%;
+    background: -webkit-linear-gradient(270deg,#f1c22d 0,#ff7757 100%);
+    height: auto;
+}
+textarea{
+    width: 84%;
+    height: 10ex;
+    font-size: 4ex;
+    margin: 2ex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+* {
+	margin:0px;
+	padding:0px;
+	font-family: helvetica;
+}
+.tiempo_css{
+    border: none;
+    color: whitesmoke;
+    width: 20ex;
+    height: 5ex;
+    background: -webkit-linear-gradient(270deg,#f1c22d 0,#ff7757 100%);
+    margin: 2ex;
+}
